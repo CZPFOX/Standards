@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE AUTOTEST>
+<AutoTest version="2.0.0" wavetype="11">
+    <Pulse>Pulse Slow</Pulse>
+    <Title>Pulse 1 bis case of low side outputs</Title>
+    <Organization>Peugeot</Organization>
+    <Standard>B21 7110 2008</Standard>
+    <Item>6.1.9.EQIC 10 RESISTANCE TO PULSES ON OUTPUTS SWITCHING INDUCTIVE LOADS</Item>
+    <system>
+        <PowerSystem>0</PowerSystem>
+        <Ua>14</Ua>
+    </system>
+    <wave>
+        <Us value="100"/>
+        <UsStep checked="0"/>
+        <UsSingleStep value="1"/>
+        <UsEnd value="500"/>
+        <T1 value="0.5"/>
+        <T1Step checked="0"/>
+        <T1SingleStep value="0.1"/>
+        <T1End value="60"/>
+        <T2 value="200"/>
+        <T3 index="0"/>
+        <Tr value="1"/>
+        <Td value="2"/>
+        <Polarity index="0" text="+"/>
+        <Ri index="2" text="10"/>
+        <Count value="1000"/>
+    </wave>
+</AutoTest>
